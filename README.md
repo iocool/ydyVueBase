@@ -97,14 +97,14 @@
 - 其他的文件以 `.styl` 结尾的是样式文件
 ## 构建步骤
 
-``` javascript
+``` js
 # install dependencies
 npm install / yarn install
 
-# serve with hot reload at localhost:8080
-npm run dev // yarn dev
+# serve with hot reload at localhost:3000
+npm run dev / yarn dev  // 如需修改启动端口及ip地址,请修改 config 文件夹下的 index.js 文件
 
 # build for production with minification
-npm run build // yarn build
+npm run build / yarn build
 ```
 
