@@ -1,0 +1,31 @@
+// 主配色
+$MainColor = #c15d3e
+
+// 根据页面不同尺寸,选择相应的文字大小进行显示
+// 小号字
+.font-size-small
+  font-size: 18px
+  @media screen and (min-width: 321px) and (max-width: 375px)
+    font-size: 12px
+  @media screen and (min-width: 376px) and (max-width: 414px)
+    font-size: 12px
+  @media screen and (max-width: 320px)
+    font-size: 10px
+// 普通字
+.font-size-normal
+  font-size: 24px
+  @media screen and (min-width: 321px) and (max-width: 375px)
+    font-size: 15px
+  @media screen and (min-width: 376px) and (max-width: 414px)
+    font-size: 15px
+  @media screen and (max-width: 320px)
+    font-size: 13px
+// 大号字
+.font-size-big
+  font-size: 30px
+  @media screen and (min-width: 321px) and (max-width: 375px)
+    font-size: 18px
+  @media screen and (min-width: 376px) and (max-width: 414px)
+    font-size: 18px
+  @media screen and (max-width: 320px)
+    font-size: 16px
